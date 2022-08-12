@@ -26,10 +26,10 @@ const ProtectedRoute = (props) => {
 const Router = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<ProtectedRoute component={Home} />} />
             <Route path="/login" element={<Login/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/car/:id" element={<Car/>} />
+            <Route path="/about" element={<ProtectedRoute component={About} />} />
+            <Route path="/car/:id" element={<ProtectedRoute component={Car} />} />
         </Routes>
     );
 };
