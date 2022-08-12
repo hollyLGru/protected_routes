@@ -4,9 +4,6 @@ Clone this repo and run `npm i` and then `npm start`
 
 ## Project Instructions
 
-- We are adding a login page to the FakeCars.com application. Once complete, you will be able to login to the app and you will remain logged in on page refresh until the cookie expires at one minute's time.
-
-- You should see a login button on the top-right when the app first starts. Go ahead and navigate to the login page and proceed to login. Notice that it takes you to the home page. Now, click the logout button. You should have been logged out and taken back to the "/login" route. But are we ever logged in or out? Click on the "Home" and "About" links on the navigation bar. It looks like we can still access everything.
 
 - In the `Router.js` file we can see a list of all our routes and paths. Write a `ProtectedRoute` function under the appropriate comment.
 
